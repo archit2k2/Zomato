@@ -1,0 +1,912 @@
+[
+    {
+        "no" : 1,
+        "id" : "mcspicy-chicken",
+        "name" : "McSpicy Chicken Burger",
+        "src" : "Images/Burger/mcspicy-chicken.webp",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 159,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 2,
+        "id" : "mcspicy-paneer",
+        "name" : "McSpicy Paneer Burger",
+        "src" : "Images/Burger/mcspicy-paneer.webp",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 159,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 3,
+        "id" : "veg-surprise",
+        "name" : "Veg Surprise Burger",
+        "src" : "Images/Burger/surprise-burger.webp",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 79,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 4,
+        "id" : "mcaloo-tikki",
+        "name" : "McAloo Tikki Burger",
+        "src" : "Images/Burger/mcaloo-tikki.webp",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 65,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 5,
+        "id" : "masala-dosa-burger",
+        "name" : "Masala Dosa Burger",
+        "src" : "Images/Burger/masala-dosa-burger.webp",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 89,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 6,
+        "id" : "mcchicken",
+        "name" : "McChicken",
+        "src" : "Images/Burger/mcchicken.webp",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 85,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 7,
+        "id" : "spicy-paneer-wrap",
+        "name" : "Spicy Paneer Wrap",
+        "src" : "Images/Wrap/spicy-paneer-wrap.webp",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 110,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 8,
+        "id" : "spicy-chicken-wrap",
+        "name" : "Spicy chicken Wrap",
+        "src" : "Images/Wrap/spicy-chicken-wrap.webp",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 130,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 9,
+        "id" : "sundae-chocolate-browny",
+        "name" : "Sundae Chocolate Browny",
+        "src" : "Images/Dessert/sundae-chocolate-browny.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 69,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 10,
+        "id" : "mcflurry-oreo-choco-crunch",
+        "name" : "Mcflurry Oreo Choco Crunch",
+        "src" : "Images/Dessert/mcflurry-oreo-choco-crunch.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 80,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 11,
+        "id" : "sundae-strawberry",
+        "name" : "Sundae Strawberry",
+        "src" : "Images/Dessert/sundae-strawberry.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 45,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 12,
+        "id" : "soft-serve-cone",
+        "name" : "Soft Serve Cone",
+        "src" : "Images/Dessert/soft-serve-cone.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 35,
+        "seller" : "McDonald's"
+    },
+    {
+        "no" : 13,
+        "id" : "turkey-wrap",
+        "name" : "Turkey Wrap",
+        "src" : "Images/Wrap/turkey-wrap.jpg",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 99,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 14,
+        "id" : "veg-seekh-wrap",
+        "name" : "Veg Seekh Wrap",
+        "src" : "Images/Wrap/veg-seekh-wrap.jpg",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 69,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 15,
+        "id" : "chicken-slice-wrap",
+        "name" : "Chicken Slice Wrap",
+        "src" : "Images/Wrap/chicken-slice-wrap.jpg",
+        "category" : "Wraps",
+        "type" : "n0n-veg",
+        "price" : 100,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 16,
+        "id" : "shammi-wrap",
+        "name" : "Shammi Kebab Wrap",
+        "src" : "Images/Wrap/shammi-wrap.jpg",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 75,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 17,
+        "id" : "chicken-strip-wrap",
+        "name" : "Chicken Strips Wrap",
+        "src" : "Images/Wrap/chicken-strip-wrap.png",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 85,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 18,
+        "id" : "italian-BMT",
+        "name" : "Italian BMT",
+        "src" : "Images/Sandwich/Italian-BMT.jpg",
+        "category" : "Sandwiches",
+        "type" : "non-veg",
+        "price" : 160,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 19,
+        "id" : "peri-peri-chicken",
+        "name" : "Peri Peri Chicken",
+        "src" : "Images/Sandwich/peri-peri-chicken.jpg",
+        "category" : "Sandwiches",
+        "type" : "non-veg",
+        "price" : 170,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 20,
+        "id" : "tandoori-tofu",
+        "name" : "Tandoori Tofu",
+        "src" : "Images/Sandwich/tandoori-tofu.jpg",
+        "category" : "Sandwiches",
+        "type" : "veg",
+        "price" : 120,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 21,
+        "id" : "chatpata-channa",
+        "name" : "Chatpata Channa",
+        "src" : "Images/Sandwich/chatpata-channa.jpg",
+        "category" : "Sandwiches",
+        "type" : "veg",
+        "price" : 109,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 22,
+        "id" : "chicken-kofta",
+        "name" : "Chicken Kofta",
+        "src" : "Images/Sandwich/chicken-kofta.jpg",
+        "category" : "Sandwiches",
+        "type" : "non-veg",
+        "price" : 125,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 23,
+        "id" : "corn-&-peas",
+        "name" : "Corn & Peas",
+        "src" : "Images/Sandwich/corn-&-peas.jpg",
+        "category" : "Sandwiches",
+        "type" : "veg",
+        "price" : 99,
+        "seller" : "Subway"
+    },
+    {
+        "no" : 24,
+        "id" : "king-egg-wrap",
+        "name" : "King Egg Wrap",
+        "src" : "Images/Wrap/king-egg-wrap.jpg",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 90,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 25,
+        "id" : "crispy-veg-wrap",
+        "name" : "Crispy Veg Wrap",
+        "src" : "Images/Wrap/crispy-veg-wrap.jpg",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 70,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 26,
+        "id" : "crunchy-chicken-taco",
+        "name" : "Crunchy Chicken Taco",
+        "src" : "Images/Wrap/crunchy-chicken-taco.jpg",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 90,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 27,
+        "id" : "veg-crunchy-taco",
+        "name" : "Veg Crunchy Taco",
+        "src" : "Images/Wrap/veg-crunchy-taco.jpg",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 70,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 28,
+        "id" : "crispy-veg-double-patty",
+        "name" : "Crispy Veg Double Patty",
+        "src" : "Images/Burger/crispy-veg-double-patty.jpg",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 95,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 29,
+        "id" : "bk-classic-veg",
+        "name" : "BK Classic Veg",
+        "src" : "Images/Burger/bk-classic-veg.jpg",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 119,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 30,
+        "id" : "whopper-jr-veg",
+        "name" : "Whopper Jr Veg",
+        "src" : "Images/Burger/whopper-jr-veg.jpg",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 149,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 31,
+        "id" : "whopper-jr-chicken",
+        "name" : "Whopper Jr Chicken",
+        "src" : "Images/Burger/whopper-jr-chicken.jpg",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 169,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 32,
+        "id" : "indie-chicken-whopper",
+        "name" : "Indie Chicken Whopper",
+        "src" : "Images/Burger/indie-chicken-whopper.jpg",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 239,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 33,
+        "id" : "veg-whopper-with-cheese",
+        "name" : "Veg Whopper with Cheese",
+        "src" : "Images/Burger/veg-whopper-with-cheese.jpg",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 194,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 34,
+        "id" : "boneless-wings",
+        "name" : "Boneless Wings(7pcs)",
+        "src" : "Images/Chicken/boneless-wings.jpg",
+        "category" : "Chicken",
+        "type" : "non-veg",
+        "price" : 249,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 35,
+        "id" : "chocolate-mousse-cup",
+        "name" : "Chocolate Mousse Cup",
+        "src" : "Images/Dessert/chocolate-mousse-cup.jpg",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 109,
+        "seller" : "Burger King"
+    },
+    {
+        "no" : 36,
+        "id" : "veggie-lover",
+        "name" : "Veggie Lover",
+        "src" : "Images/Pizza/veggie-lover.avif",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 229,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 37,
+        "id" : "corn-&-cheese",
+        "name" : "Golden Corn",
+        "src" : "Images/Pizza/corn-&-cheese.avif",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 219,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 38,
+        "id" : "bell-pepper",
+        "name" : "Bell Pepper",
+        "src" : "Images/Pizza/bell-pepper.avif",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 139,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 39,
+        "id" : "tomato",
+        "name" : "Tomato",
+        "src" : "Images/Pizza/tomato.avif",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 99,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 40,
+        "id" : "pepper-barbeque-chicken",
+        "name" : "Pepper Barbeque Chicken",
+        "src" : "Images/Pizza/pepper-barbeque-chicken.avif",
+        "category" : "Pizzas",
+        "type" : "non-veg",
+        "price" : 199,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 41,
+        "id" : "onion-&-paneer",
+        "name" : "Onion & Paneer",
+        "src" : "Images/Pizza/onion-&-paneer.avif",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 115,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 42,
+        "id" : "taco-mexicana-veg",
+        "name" : "Taco Mexicana Veg",
+        "src" : "Images/Wrap/taco-mexicana-veg.jpg",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 139,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 43,
+        "id" : "taco-mexicana-non-veg",
+        "name" : "Taco Mexicana Non Veg",
+        "src" : "Images/Wrap/taco-mexicana-non-veg.jpg",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 155,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 44,
+        "id" : "brownie-fantasy",
+        "name" : "Brownie Fantasy",
+        "src" : "Images/Dessert/brownie-fantasy.jpg",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 59,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 45,
+        "id" : "butterscotch-mousse-cake",
+        "name" : "Butterscotch Mousse Cake",
+        "src" : "Images/Dessert/butterscotch-mousse-cake.jpg",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 85,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 46,
+        "id" : "choco-lava-cake",
+        "name" : "Choco Lava Cake",
+        "src" : "Images/Dessert/choco-lava-cake.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 65,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 47,
+        "id" : "choco-lava-puff-roll",
+        "name" : "Choco Lava Puff Roll",
+        "src" : "Images/Dessert/choco-lava-puff-roll.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 49,
+        "seller" : "Domino's"
+    },
+    {
+        "no" : 48,
+        "id" : "veg-biryani",
+        "name" : "Popcorn Chicken Biryani",
+        "src" : "Images/Biryani/popcorn-chicken-biryani.jpg",
+        "category" : "Biryani",
+        "type" : "non-veg",
+        "price" : 229,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 49,
+        "id" : "veg-biryani",
+        "name" : "Veg Biryani",
+        "src" : "Images/Biryani/veg-biryani.jpg",
+        "category" : "Biryani",
+        "type" : "veg",
+        "price" : 183,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 50,
+        "id" : "smoky-grilled-biryani",
+        "name" : "Smoky Chicken Biryani",
+        "src" : "Images/Biryani/smoky-grilled-biryani.jpg",
+        "category" : "Biryani",
+        "type" : "non-veg",
+        "price" : 229,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 51,
+        "id" : "classic-chicken-biryani",
+        "name" : "Classic Chicken Biryani",
+        "src" : "Images/Biryani/classic-chicken-biryani.jpg",
+        "category" : "Biryani",
+        "type" : "non-veg",
+        "price" : 229,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 52,
+        "id" : "peri-peri-5-leg-pc",
+        "name" : "Peri Peri 5 leg Pc",
+        "src" : "Images/Chicken/peri-peri-5-leg-pc.jpg",
+        "category" : "Chicken",
+        "type" : "non-veg",
+        "price" : 515,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 53,
+        "id" : "5pc-smoky-red-chicken",
+        "name" : "5pc Smoky Red Chicken",
+        "src" : "Images/Chicken/5pc-smoky-red-chicken.jpg",
+        "category" : "Chicken",
+        "type" : "non-veg",
+        "price" : 499,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 54,
+        "id" : "6pc-hot-&-crispy-chicken",
+        "name" : "6 pc Hot & Crispy Chicken",
+        "src" : "Images/Chicken/6pc-hot-&-crispy-chicken.jpg",
+        "category" : "Chicken",
+        "type" : "non-veg",
+        "price" : 619,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 55,
+        "id" : "chizza",
+        "name" : "Chizza",
+        "src" : "Images/Chicken/chizza.jpg",
+        "category" : "Chicken",
+        "type" : "non-veg",
+        "price" : 299,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 56,
+        "id" : "4pc-hot-chicken-wings",
+        "name" : "4pc Hot Chicken Wings",
+        "src" : "Images/Chicken/4pc-hot-chicken-wings.jpg",
+        "category" : "Chicken",
+        "type" : "non-veg",
+        "price" : 164,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 57,
+        "id" : "veg-zinger-burger",
+        "name" : "Veg Zinger Burger",
+        "src" : "Images/Burger/veg-zinger-burger.jpg",
+        "category" : "Burgers",
+        "type" : "veg",
+        "price" : 179,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 58,
+        "id" : "classic-zinger-burger",
+        "name" : "Classic Zinger Burger",
+        "src" : "Images/Burger/classic-zinger-burger.jpg",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 189,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 59,
+        "id" : "tandoori-zinger-burger",
+        "name" : "Tandoori Zinger Burger",
+        "src" : "Images/Burger/tandoori-zinger-burger.jpg",
+        "category" : "Burgers",
+        "type" : "non-veg",
+        "price" : 199,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 60,
+        "id" : "chocolate-lava-cake",
+        "name" : "Chocolate Lava Cake",
+        "src" : "Images/Dessert/chocolate-lava-cake.jpg",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 108,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 61,
+        "id" : "choco-mud-pie",
+        "name" : "Choco Mud pie",
+        "src" : "Images/Dessert/choco-mud-pie.jpg",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 128,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 62,
+        "id" : "chicken-popcorn-maggi",
+        "name" : "Chicken Popcorn Maggie",
+        "src" : "Images/Chowmein/chicken-popcorn-maggi.jpg",
+        "category" : "Chowmein",
+        "type" : "non-veg",
+        "price" : 179,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 63,
+        "id" : "veg-patty-maggi",
+        "name" : "Veg Patty Maggie",
+        "src" : "Images/Chowmein/veg-patty-maggi.jpg",
+        "category" : "Chowmein",
+        "type" : "veg",
+        "price" : 148,
+        "seller" : "KFC"
+    },
+    {
+        "no" : 64,
+        "id" : "tandoori-paneer",
+        "name" : "Tandoori Paneer",
+        "src" : "Images/Pizza/tandoori-paneer.jpg",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 269,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 65,
+        "id" : "margherita",
+        "name" : "Margherita",
+        "src" : "Images/Pizza/margherita.jpg",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 129,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 66,
+        "id" : "farmers-pick",
+        "name" : "Farmers Pick",
+        "src" : "Images/Pizza/farmers-pick.jpg",
+        "category" : "Pizzas",
+        "type" : "veg",
+        "price" : 219,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 67,
+        "id" : "italian-pepperoni-&-onion",
+        "name" : "Italian Pepperoni & Onion",
+        "src" : "Images/Pizza/italian-pepperoni-&-onion.jpg",
+        "category" : "Pizzas",
+        "type" : "non-veg",
+        "price" : 299,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 68,
+        "id" : "chicken-tikka-supreme",
+        "name" : "Chicken Tikka Supreme",
+        "src" : "Images/Pizza/chicken-tikka-supreme.jpg",
+        "category" : "Pizzas",
+        "type" : "non-veg",
+        "price" : 339,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 69,
+        "id" : "chicken-supreme",
+        "name" : "Chicken Supreme",
+        "src" : "Images/Pizza/chicken-supreme.jpg",
+        "category" : "Pizzas",
+        "type" : "non-veg",
+        "price" : 349,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 70,
+        "id" : "indi-rockin-roll-veg",
+        "name" : "Indi Rockin Roll Veg",
+        "src" : "Images/Wrap/indi-rockin-roll-veg.jpg",
+        "category" : "Wraps",
+        "type" : "veg",
+        "price" : 109,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 71,
+        "id" : "indi-rockin-roll-non-veg",
+        "name" : "Indi Rockin Roll Non Veg",
+        "src" : "Images/Wrap/indi-rockin-roll-non-veg.jpg",
+        "category" : "Wraps",
+        "type" : "non-veg",
+        "price" : 139,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 72,
+        "id" : "choco-volcano-cake",
+        "name" : "Choco Volcano Cake",
+        "src" : "Images/Dessert/choco-volcano-cake.jpg",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 118,
+        "seller" : "Pizza Hut"
+    },
+    {
+        "no" : 73,
+        "id" : "pan-fried-noodles",
+        "name" : "Pan Fried Noodles",
+        "src" : "Images/Chowmein/pan-fried-noodles.jpg",
+        "category" : "Chowmein",
+        "type" : "veg",
+        "price" : 109,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 74,
+        "id" : "chicken-Chowmein",
+        "name" : "Chicken Chowmein",
+        "src" : "Images/Chowmein/chicken-Chowmein.jpg",
+        "category" : "Chowmein",
+        "type" : "non-veg",
+        "price" : 69,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 75,
+        "id" : "liangpi",
+        "name" : "Liangpi",
+        "src" : "Images/Chowmein/liangpi.jpg",
+        "category" : "Chowmein",
+        "type" : "veg",
+        "price" : 89,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 76,
+        "id" : "manchow-noodles",
+        "name" : "Manchow Noodles",
+        "src" : "Images/Chowmein/manchow-noodles.jpg",
+        "category" : "Chowmein",
+        "type" : "non-veg",
+        "price" : 75,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 77,
+        "id" : "mediterranean-noodles",
+        "name" : "Mediterranean Noodles",
+        "src" : "Images/Chowmein/mediterranean-noodles.jpg",
+        "category" : "Chowmein",
+        "type" : "veg",
+        "price" : 99,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 78,
+        "id" : "dan-dan-noodles",
+        "name" : "Dan Dan Noodles",
+        "src" : "Images/Chowmein/dan-dan-noodles.jpg",
+        "category" : "Chowmein",
+        "type" : "veg",
+        "price" : 65,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 79,
+        "id" : "rajasthani-thali",
+        "name" : "Rajasthani Thali",
+        "src" : "Images/Thali/rajasthani-thali.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 139,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 80,
+        "id" : "maharashtrian-thali",
+        "name" : "Maharashtrian Thali",
+        "src" : "Images/Thali/maharashtrian-thali.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 149,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 81,
+        "id" : "kathiawadi-thali",
+        "name" : "Kathiawadi Thali",
+        "src" : "Images/Thali/kathiawadi-thali.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 145,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 82,
+        "id" : "assamese-thali",
+        "name" : "Assamese Thali",
+        "src" : "Images/Thali/assamese-thali.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 154,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 83,
+        "id" : "kerala-thali",
+        "name" : "Kerala Thali",
+        "src" : "Images/Thali/kerala-thali.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 131,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 84,
+        "id" : "karnataka-thali",
+        "name" : "Karnataka Thali",
+        "src" : "Images/Thali/karnataka-thali.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 149,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 85,
+        "id" : "chole-bhature",
+        "name" : "Chole Bhature",
+        "src" : "Images/Thali/chole-bhature.jpg",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 55,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 86,
+        "id" : "chicken-biryani",
+        "name" : "Chicken Biryani",
+        "src" : "Images/Biryani/chicken-biryani.jpg",
+        "category" : "Biryani",
+        "type" : "non-veg",
+        "price" : 95,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 87,
+        "id" : "rajma-chawal",
+        "name" : "Rajma Chawal",
+        "src" : "Images/Thali/rajma-chawal.webp",
+        "category" : "Thali",
+        "type" : "veg",
+        "price" : 50,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 88,
+        "id" : "soan-papadi",
+        "name" : "Soan Papadi(250gm)",
+        "src" : "Images/Dessert/soan-papadi.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 110,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 89,
+        "id" : "mango-halwa",
+        "name" : "Mango Halwa(200gm)",
+        "src" : "Images/Dessert/mango-halwa.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 55,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 90,
+        "id" : "moti-choor-ladoo",
+        "name" : "Moti Choor Ladoo(250gm)",
+        "src" : "Images/Dessert/moti-choor-ladoo.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 175,
+        "seller" : "Haldiram's"
+    },
+    {
+        "no" : 91,
+        "id" : "agar-taj-petha",
+        "name" : "Agar Taj Petha(200gm)",
+        "src" : "Images/Dessert/agar-taj-petha.webp",
+        "category" : "Dessert",
+        "type" : "veg",
+        "price" : 60,
+        "seller" : "Haldiram's"
+    }
+]

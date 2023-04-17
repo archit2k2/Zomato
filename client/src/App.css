@@ -1,0 +1,777 @@
+.reset-window
+{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+.login
+{
+  min-height: 95%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Okra, Helvetica, sans-serif;
+  background-image: url(../public/Images/Login.jpg);
+  background-size: cover;
+  border-radius: 0.65rem;
+  padding:10rem 0 7rem;
+}
+
+.credentials 
+{
+
+  font-family: Okra, Helvetica, sans-serif;
+  min-width: 20rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 2rem 1rem;
+}
+
+.credentials label
+{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.credentials span
+{
+  padding-left: 1.1rem;
+  font-size: 0.8rem;
+}
+
+.credentials input
+{
+  margin: 0.1rem 1rem 1.3rem;
+  font-size: 1rem;
+  padding: 0.6rem 0.4rem;
+  outline: none;
+  border: 1.3px solid black;
+  border-radius: 0.4rem;
+}
+
+.credentials > div
+{
+  text-align: center;
+}
+
+.credentials img
+{
+  align-self: flex-end;
+  width: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.credentials button
+{
+  width: 5rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(6, 216, 6);
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  padding: 0.8rem 0.4rem;
+}
+
+.name
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.name div
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+nav
+{
+  min-height: 7%;
+  background-color: aliceblue;
+  font-family: Okra, Helvetica, sans-serif;
+  font-size: 1.17rem;
+  box-shadow: 2px 1px 10px;
+  width: 100%;
+  padding: 0 4vw;
+  position: fixed;
+  box-sizing: border-box;
+  display: flex;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav label
+{
+  margin: 0 0.7rem;
+}
+
+nav > div
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-btn
+{
+  color: black;
+  text-decoration: none;
+  margin-left: 2rem ;
+}
+
+.logo
+{
+  padding: 1.15rem 0;
+  width: 7rem;
+}
+
+.profile
+{
+  border-radius: 100%;
+  width: 2.3rem;
+}
+
+.profile-tab
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.profile-img-container
+{
+  padding: 0.7rem 0;
+}
+
+.profile-img-container:hover
+{
+  height: 200%;
+}
+
+.drop-down-container
+{
+  position: absolute;
+  top: 100%;
+  padding-top: 0.5rem;
+}
+
+.drop-down
+{
+  display: none;
+  background-color: aliceblue;
+  padding: 0.5rem 1.4rem;
+  border-radius: 4px;
+  position: relative;
+  text-align: right;
+  font-size: 1.2rem;
+  top: 100%;
+}
+
+.drop-down div
+{
+  margin: 0.7rem 0;
+}
+
+.drop-down-option
+{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.header
+{
+  background-image: url(../public/Images/nav-img1.avif);
+  background-size: cover;
+  height: 85%;
+  margin-bottom: 8vh;
+  box-shadow: 0px 1px 10px inset;
+  animation: header 25s infinite;
+}
+
+@keyframes header
+{
+  10%{background-image: url(../public/Images/nav-img1.avif)}
+  20%{background-image: url(../public/Images/nav-img2.jpg)}
+  30%{background-image: url(../public/Images/nav-img2.jpg)}
+  40%{background-image: url(../public/Images/nav-img3.jpg)}
+  50%{background-image: url(../public/Images/nav-img3.jpg)}
+  60%{background-image: url(../public/Images/nav-img4.jpg)}
+  70%{background-image: url(../public/Images/nav-img4.jpg)}
+  80%{background-image: url(../public/Images/nav-img5.jpg)}
+  90%{background-image: url(../public/Images/nav-img5.jpg)}
+  100%{background-image: url(../public/Images/nav-img1.avif)}  
+}
+
+.title
+{
+  font-family: Okra, Helvetica, sans-serif;
+  margin-top: 2.2rem;
+  padding: 0 6vw;
+  font-size: 2.1rem;
+}
+
+.slider-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abc
+{
+  background-color: rgb(248, 248, 248);
+}
+
+.slider
+{
+  margin-top: 2rem;
+  width: 88.24vw;
+  box-sizing: border-box;
+  font-family: Okra, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-frame
+{
+  width: 85.74vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.tab
+{
+  width: 2.5vw;
+  z-index: 1;
+}
+
+.navigation
+{
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255);
+  cursor: pointer;
+  width: 2.5vw;
+  box-shadow: 1px 1px 15px -5px;
+}
+
+.slider-image
+{
+  width: 128.61vw;
+  display: flex;
+  position: relative;
+  transition: left 0.3s linear;
+}
+
+.img-container
+{
+  margin: 0 1.27vw;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  float: left;
+}
+
+.cat-img
+{
+  width: 11.43vw;
+  border-radius: 100%;
+}
+
+.brand-img
+{
+  width: 11.43vw;
+}
+
+.list
+{
+  font-family: Okra, Helvetica, sans-serif;
+  padding: 1.7rem 6.5vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item
+{
+  padding: 1rem 0.9rem 1.3rem;
+  border-radius: 1.2rem;
+  margin: 1.2rem 1rem;
+  text-align: center;
+  transition: 0.1s linear;
+}
+
+.item img
+{
+  border-radius: 7px;
+  width: 17.8rem;
+}
+
+.item:hover
+{
+  box-shadow: 0px 0px 12px -8px;
+}
+
+.item-info
+{
+  box-sizing: border-box;
+}
+
+
+.item-info > div
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-img-container
+{
+  border-radius: 7px;
+  overflow: hidden;
+  height: 13.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order
+{
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+.order > div
+{
+  display: flex;
+  align-items: center;
+}
+
+.order > button
+{
+  border: 1px solid rgb(250, 187, 0);
+  border-radius: 7px;
+  background-color: rgb(250, 187, 0);
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.amount
+{
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.order input
+{
+  color: black;
+  width: 2.5rem;
+  border: 0;
+  background-color: white;
+  text-align: center;
+  padding: 0.7rem 0;
+}
+
+.personal-info
+{
+  font-family: Okra, Helvetica, sans-serif;
+  background-image: url(../public/Images/profile-bg.webp);
+  background-size: cover;
+  min-height: 94%;
+  box-sizing: border-box;
+  padding: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.personal-info-tab
+{
+  min-width: 55%;
+  padding: 1.7rem 1.2rem;
+  border-radius: 6px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-info-tab input
+{
+  margin: 0.1rem 0 1.3rem;
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  outline: none;
+  font-size: 0.9rem;
+  border: 1.3px solid black;
+  border-radius: 0.4rem;
+}
+
+.personal-info-tab textarea
+{
+  resize: none;
+  height: 5rem;
+  margin: 0.1rem 0 1.3rem;
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  outline: none;
+  font-size: 0.9rem;
+  border: 1.3px solid black;
+  border-radius: 0.4rem;
+}
+
+.personal-info-tab label
+{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.personal-info-tab span
+{
+  font-size: 0.8rem;
+}
+
+.btns
+{
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btns button
+{
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 7px;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+footer
+{
+  font-family: Okra, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.6rem 1.2rem 1.2rem;
+  color: white;
+  background-color: #252525;
+}
+
+footer img
+{
+  margin: 1rem 0.9rem 0;
+  height: 1.2rem;
+  width: 1.3rem;
+  transition: 0.1s linear;
+}
+
+footer img:hover
+{
+  transform: scale(1.3);
+}
+
+#fb
+{
+  height: 1.2rem;
+  width: 0.7rem;
+}
+
+.socials
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart
+{
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: Okra, Helvetica, sans-serif;
+  min-height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.item-container
+{
+  box-sizing: border-box;
+  min-width: 65%;
+  border-radius: 7px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-container label
+{
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.cart-item
+{
+  font-size: 1.2rem;
+  margin: 0.7rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cart-heading
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#item, #price, #quantity
+{
+  text-align: center;
+  width: 30%;
+}
+
+#remove
+{
+  text-align: center;
+  width: 10%;
+}
+
+.cart-item span
+{
+  text-align: center;
+  width: 30%;
+}
+
+.cart-item div
+{
+  color: rgb(213, 2, 2);
+}
+
+.cart-item i
+{
+  cursor: pointer;
+}
+
+.bill-container
+{
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5rem 0.5rem 2rem;
+}
+
+.empty
+{
+  font-size: 1.2rem;
+  border-radius: 7px;
+  padding: 0.7rem;
+  color: white;
+  background-color:rgb(0, 174, 255);
+  cursor: pointer;
+}
+
+.bill
+{
+  border-radius: 7px;
+  padding: 1rem;
+  background-color: rgb(213, 243, 243);
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bill div
+{
+  padding: 0.2rem 0;
+  width: 100%;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+}
+
+.bill div span:first-child
+{
+  padding-right: 2.5rem;
+}
+
+hr
+{
+  border-color: black;
+}
+
+
+.item-container > button
+{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(6, 216, 6);
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+}
+
+.previous-order
+{
+  font-family: Okra, Helvetica, sans-serif;
+  min-height: 95%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 2rem;
+}
+
+fieldset
+{
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  margin: 3rem 1rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 90vw;
+}
+
+.previous-order label
+{
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.order-item
+{
+  font-size: 1.2rem;
+  margin: 0.7rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-item span
+{
+  width: 33%;
+
+}
+
+.amount-paid
+{
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .name
+  {
+    flex-direction: column;
+  }
+
+  .name input
+  {
+    align-self: normal;
+  }
+
+  .personal-info
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .personal-info-tab
+  {
+    min-width: 123%;
+  }
+
+  .cart
+  {
+    padding: 5rem 1rem;
+  }
+
+  .cart-heading
+  {
+    word-wrap: break-word;
+  }
+
+  .item-container
+  {
+    padding: 0;
+    min-width: 100%;
+  }
+
+  .bill-container
+  {
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cart img
+  {
+    width: 28rem;
+  }
+
+  #price, #quantity
+  {
+    width: 25%;
+  }
+
+  #remove
+  {
+    width: 20%;
+  }
+
+  .bill
+  {
+    margin-top: 1rem;
+  }
+}
