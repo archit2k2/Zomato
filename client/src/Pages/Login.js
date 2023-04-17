@@ -15,7 +15,7 @@ function Login(props) {
 
     const handlechange = (e) => {
         
-        setuser({
+        setUser({
             ...user,[e.target.name]:e.target.value.trim()
         });
     }
