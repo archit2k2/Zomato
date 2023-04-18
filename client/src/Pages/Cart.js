@@ -1,9 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import Nav from '../Components/nav';
-import Footer from '../Components/footer';
 import CartItem from '../Components/cartItem';
-import Resetpass from '../Components/resetpass';
 import axios from 'axios';
 
 function Cart(props)
@@ -90,8 +87,6 @@ function Cart(props)
 
   return (
     <>
-        <Resetpass  display={props.display} pass={props.pass} user={props.user} />
-        <Nav pass={props.pass} setuser={props.setuser} user={props.user} />
         <div className='cart'>
             {
                 cart.length === 0
@@ -165,7 +160,6 @@ function Cart(props)
                 </div>
             }
         </div>
-        <Footer />
     </>
 
   )

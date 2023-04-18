@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import Nav from '../Components/nav'
-import Footer from '../Components/footer'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -49,7 +47,6 @@ function Login(props) {
     
     return(
         <>
-            <Nav />
             <div className="login">
                 <div className="credentials">
                     <label>
@@ -73,10 +70,8 @@ function Login(props) {
                         </button>
                     </div>
                 </div>     
-            </div>
-            <Footer />   
-        </>
-            
+            </div> 
+        </>      
     );
 }
 

@@ -1,8 +1,5 @@
-import Nav from '../Components/nav';
-import Footer from '../Components/footer';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Resetpass from '../Components/resetpass';
 
 function useForceUpdate(){
     const [value, setValue] = useState(0);
@@ -118,8 +115,6 @@ function Profile(props) {
 
     return(
         <>
-            <Resetpass  display={props.display} pass={props.pass} user={props.user} />
-            <Nav pass={props.pass} setuser={props.setuser} user={props.user} />
             <div className="personal-info">
                 <div className='personal-info-tab'>
                     <label>
@@ -175,7 +170,6 @@ function Profile(props) {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

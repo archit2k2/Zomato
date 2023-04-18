@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import Nav from '../Components/nav';
-import Footer from '../Components/footer';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -80,7 +78,6 @@ function Signup() {
     
     return(
         <>
-            <Nav />
             <div className="login">
                 <div className="credentials">
                     <label>
@@ -128,8 +125,7 @@ function Signup() {
                         </button>
                     </div>
                 </div>
-            </div>
-            <Footer />   
+            </div>  
         </>
             
     );

@@ -1,7 +1,4 @@
 import axios from 'axios';
-import Nav from '../Components/nav';
-import Footer from '../Components/footer';
-import Resetpass from '../Components/resetpass';
 import React, { useState, useEffect } from 'react';
 
 function Order(props) {
@@ -22,8 +19,6 @@ useEffect(() => {
 
   return (
     <>
-        <Resetpass  display={props.display} pass={props.pass} user={props.user} />
-        <Nav pass={props.pass} setuser={props.setuser} user={props.user} />
         <div className='previous-order'>
             {
                 order.length === 0
@@ -66,7 +61,6 @@ useEffect(() => {
                 </div>
             }
         </div>
-        <Footer />
     </>
   )
 }

@@ -28,7 +28,9 @@ function Resetpass(props)
 
                 if(res.data.msg === "Password Changed Successfully")
                 {
-                    
+                    setUser({
+                        ...Loggeduser, "password": "", "newPassword" : "", "confirmPassword" : ""
+                    });
                     props.pass();
                     alert(res.data.msg);
                 }
@@ -42,7 +44,6 @@ function Resetpass(props)
         {
             alert("Fill all column");
         }
-
     }
 
     return(
@@ -55,19 +56,19 @@ function Resetpass(props)
                 <span>
                     Old Password
                 </span>
-                <input type={"password"}  name='password' onChange={handlechange} placeholder={"Enter Old Password here"}>
+                <input type={"password"}  name='password' onChange={handlechange} value={Loggeduser.password} placeholder={"Enter Old Password here"}>
 
                 </input>
                 <span>
                     New Password
                 </span>
-                <input type={"password"}  name='newPassword' onChange={handlechange} placeholder={"Enter New Password here"}>
+                <input type={"password"}  name='newPassword' onChange={handlechange} value={Loggeduser.newPassword} placeholder={"Enter New Password here"}>
 
                 </input>
                 <span>
                     Confirm Password
                 </span>
-                <input type={"password"}  name='confirmPassword' onChange={handlechange} placeholder={"Re-enter New Password here"}>
+                <input type={"password"}  name='confirmPassword' onChange={handlechange} value={Loggeduser.confirmPassword} placeholder={"Re-enter New Password here"}>
 
                 </input>
                 <div>
