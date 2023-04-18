@@ -28,11 +28,14 @@ function Account(props) {
         setHovered(0);
     }
 
+    const handleClick = () => {
+        setHovered(0);
+      };
+
 
     const logout = () => {
         localStorage.setItem('user',"");
         props.setuser(localStorage.getItem('user'));
-
     }
 
     return(
@@ -47,22 +50,22 @@ function Account(props) {
                 <div className="drop-down-container">
                     <div className="drop-down" style={style}>
                         <div>
-                            <NavLink exact="true" className="drop-down-option" to='/profile'>
+                            <NavLink exact="true" className="drop-down-option" to='/profile' onClick={handleClick}>
                                 Your Profile
                             </NavLink>
                         </div>
                         <div>
-                            <NavLink className="drop-down-option" exact="true" to='/order'>
+                            <NavLink className="drop-down-option" exact="true" to='/order' onClick={handleClick}>
                                 Your Orders
                             </NavLink>
                         </div>
                         <div>
-                            <NavLink className="drop-down-option" exact="true" to='/cart'>
+                            <NavLink className="drop-down-option" exact="true" to='/cart' onClick={handleClick}>
                                 Your Cart
                             </NavLink>
                         </div>
                         <div>
-                            <div className="drop-down-option" onClick={props.pass}>
+                            <div className="drop-down-option" onClick={()=> {props.pass(); handleClick();}}>
                                 Change Password
                             </div>
                         </div>
